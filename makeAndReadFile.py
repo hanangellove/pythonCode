@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #encoding:utf-8
+#3-12
 import os
+
 
 def makeFile():
 	"""提醒用户输入一个不存在的文件名，然后由用户输入该文件的每一行。最后将所有文本写入文本文件"""
