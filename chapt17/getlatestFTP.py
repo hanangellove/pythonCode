@@ -36,7 +36,7 @@ def main():
 		return
 	print "***change to '%s' folder " % dirname
 
-	#获取文件
+	#获取文件 
 	try:
 		
 		#f.retrbinary('RETR %s' % FILE,open(FILE,'wb').write)
