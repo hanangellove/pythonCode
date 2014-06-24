@@ -1,5 +1,6 @@
 #/usr/bin/env python
 #encoding:utf-8
+'''创建一个能接收客户的消息，在消息钱加一个时间戳后返回的TCP服务器'''
 from socket import *
 from time import ctime
 

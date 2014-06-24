@@ -4,9 +4,10 @@
 from socket import *
 
 HOST = ''
-PORT = 30001
+PORT = 30002
 BUFSIZ = 1034
 ADDR = (HOST,PORT)
+
 
 while True:
 	tcpCliSock = socket(AF_INET,SOCK_STREAM) 

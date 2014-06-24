@@ -5,7 +5,7 @@ from SocketServer import (TCPServer as TCP,StreamRequestHandler as SRH)
 from time import ctime
 
 HOST = ''
-PORT = 30001
+PORT = 30002
 ADDR = (HOST,PORT)
 
 class MyRequestHandler(SRH):
